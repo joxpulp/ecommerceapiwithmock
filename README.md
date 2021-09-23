@@ -15,12 +15,14 @@ Example 1 (Returns 3 products):
 /api/productos/vista-test?cant=3
 ```
 
+
 If query parameter `cant` value is 0
 
 Example 2 (Returns a message saying there are no products):
 ```Typescript
 /api/productos/vista-test?cant=0
 ```
+
 
 Without the query parameter
 
