@@ -20,7 +20,7 @@ If query parameter `cant` value is 0 - Example 2 (Returns a message saying there
 ```
 
 
-Without the query parameter - Example 3 (Returns 10 products by default):
+Without query parameter - Example 3 (Returns 10 products by default):
 ```Typescript
 /api/productos/vista-test
 ```
