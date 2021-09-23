@@ -12,8 +12,7 @@ Include query parameter `cant` and the number of products to be generated - Exam
 ```Typescript
 /api/productos/vista-test?cant=3
 ```
-
-
+##
 If query parameter value is 0 - Example 2 (Returns a message saying there are no products):
 ```Typescript
 /api/productos/vista-test?cant=0
