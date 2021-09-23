@@ -8,25 +8,19 @@ Data Mocking:
 
 Method: `GET`
 
-Include query parameter `cant` and the number of products to be generated
-
-Example 1 (Returns 3 products):
+Include query parameter `cant` and the number of products to be generated - Example 1 (Returns 3 products):
 ```Typescript
 /api/productos/vista-test?cant=3
 ```
 
 
-If query parameter `cant` value is 0
-
-Example 2 (Returns a message saying there are no products):
+If query parameter `cant` value is 0 - Example 2 (Returns a message saying there are no products):
 ```Typescript
 /api/productos/vista-test?cant=0
 ```
 
 
-Without the query parameter
-
-Example 3 (Returns 10 products by default):
+Without the query parameter - Example 3 (Returns 10 products by default):
 ```Typescript
 /api/productos/vista-test
 ```
