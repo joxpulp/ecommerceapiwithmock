@@ -7,7 +7,7 @@ API live demo: https://desafio22.herokuapp.com/api/productos/vista-test
 Data Mocking:
 
 Method: `GET`
-
+##
 Include query parameter `cant` and the number of products to be generated - Example 1 (Returns 3 products):
 ```Typescript
 /api/productos/vista-test?cant=3
@@ -17,13 +17,12 @@ If query parameter value is 0 - Example 2 (Returns a message saying there are no
 ```Typescript
 /api/productos/vista-test?cant=0
 ```
-
-
+##
 Without query parameter - Example 3 (Returns 10 products by default):
 ```Typescript
 /api/productos/vista-test
 ```
-
+##
 Products:
 | Method       | Route          | Description  |
 | ------------- |:-------------:| -----:|
@@ -42,6 +41,7 @@ Product's JSON Body template:
     "thumbnail": string,
 }
 ```
+##
 Messages:
 | Method       | Route          | Description  |
 | ------------- |:-------------:| -----:|
